@@ -1,6 +1,11 @@
 // @ts-check
 const { test, expect } = require("@playwright/test");
-const dataJson = require('E:/playwright-js/tests/testData/userTestData.json');
+const dataJson =       {
+              name: "Taofiq",
+              email: "email@email.com",
+              status: "inactive",
+              gender: "male",
+            }
 // relatvie path + format string
 
 
